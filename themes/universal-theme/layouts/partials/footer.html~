@@ -47,7 +47,7 @@
 
           <h4>{{ i18n "contactTitle" }}</h4>
 
-            <a href="https://twitter.com/escapolis?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @escapolis</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/escapolis?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @escapolis</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
             <hr class="hidden-md hidden-lg hidden-sm">
 
