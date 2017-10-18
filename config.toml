@@ -49,7 +49,7 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "img/logo.png"
+    logo = "img/logo/escapolis_small_header.png"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -79,7 +79,7 @@ paginate = 10
 [params.see_more]
     enable = true
     icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
+    title = "ESCAPOLIS"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
     link_url = "#"
     link_text = "Check other homepages"
