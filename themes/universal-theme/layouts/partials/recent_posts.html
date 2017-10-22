@@ -8,17 +8,17 @@
                 <h2>{{ .Site.Params.recent_posts.title }}</h2>
             </div>
 
-            <p class="lead">
+            <!-- <p class="lead">
               {{ .Site.Params.recent_posts.subtitle | markdownify }}
-            </p>
+            </p> -->
 
             <!-- *** BLOG HOMEPAGE *** -->
 
             <div class="row">
 
                 {{ $posts := .Paginate (where .Data.Pages "Type" "blog") }}
-                {{ range first 4 $posts.Pages }}
-                <div class="col-md-3 col-sm-6">
+                {{ range first 6 $posts.Pages }}
+                <div class="col-md-4 col-sm-6">
                     <div class="box-image-text blog">
                         <div class="top">
                             <div class="image" style="overflow:hidden">
