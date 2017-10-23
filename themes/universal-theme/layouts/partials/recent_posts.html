@@ -1,6 +1,6 @@
 {{ if isset .Site.Params "recent_posts" }}
 {{ if .Site.Params.recent_posts.enable }}
-<section class="bar background-white no-mb">
+<section class="bar background-gray no-mb">
     <div class="container">
 
         <div class="col-md-12">
@@ -17,7 +17,7 @@
             <div class="row">
 
                 {{ $posts := .Paginate (where .Data.Pages "Type" "blog") }}
-                {{ range first 6 $posts.Pages }}
+                {{ range first 9 $posts.Pages }}
                 <div class="col-md-4 col-sm-6">
                     <div class="box-image-text blog">
                         <div class="top">
@@ -31,12 +31,12 @@
                             <div class="bg"></div>
                             <div class="text">
                                 <p class="buttons">
-                                    <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary"><i class="fa fa-link"></i> {{ i18n "readMore" }}</a>
+                                    <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary"><i class="fa fa-link"></i> {{ .Title }}</a>
                                 </p>
                             </div>
                         </div>
 
-                        <div class="content">
+                        <!--<div class="content">
                             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                             <p class="author-category">
                             {{ with .Params.author }}
@@ -48,7 +48,7 @@
                             <p class="read-more">
                               <a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
                             </p>
-                        </div>
+                        </div>-->
                     </div>
                     <!-- /.box-image-text -->
 

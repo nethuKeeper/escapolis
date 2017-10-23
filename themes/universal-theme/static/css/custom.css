@@ -2,9 +2,13 @@
 
 .box-image-text .image {
   min-height: 200px;
-  max-height: 200px;
+  max-height: 350px;
 }
 
 .box-simple {
   min-height: 230px;
 }
+.read-more a {
+background-color: #eeeeee;
+}
+

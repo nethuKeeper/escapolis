@@ -1574,7 +1574,7 @@ fieldset[disabled] .btn-template-primary.active {
   position: relative;
   overflow: hidden;
   text-align: center;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 .box-image-text .top {
   position: relative;
@@ -1589,6 +1589,10 @@ fieldset[disabled] .btn-template-primary.active {
   opacity: 0;
   filter: alpha(opacity=0);
   background: #414ea0;
+}
+.box-image-text .image {
+  min-height: 200px;
+  max-height: 350px;
 }
 .box-image-text .top .name {
   position: absolute;
@@ -1728,7 +1732,7 @@ fieldset[disabled] .btn-template-primary.active {
 #heading-breadcrumbs {
   background: url('../img/texture-bw.png') center center repeat;
   padding: 20px 0;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 #heading-breadcrumbs.no-mb {
   margin-bottom: 0;
@@ -1848,7 +1852,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .see-more {
   text-align: center;
-  min-height: 500px;
+  min-height: 600px;
   margin-top: 0px;
   padding-top: 20px;
 }
@@ -2057,7 +2061,7 @@ fieldset[disabled] .btn-template-primary.active {
 #blog-listing-medium .post h2 {
   text-transform: uppercase;
   margin: 0 0 10px;
-  font-size: 24px;
+  font-size: 35px;
   letter-spacing: 0.08em;
 }
 #blog-listing-medium .post h2 a {

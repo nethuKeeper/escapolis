@@ -14,7 +14,7 @@
         </header>
 
         {{ partial "breadcrumbs.html" . }}
-
+        <section class="bar background-gray">
         <div id="content">
             <div class="container">
                 <div class="row">
@@ -26,7 +26,7 @@
                         {{ range $paginator.Pages }}
                         <section class="post">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-5">
                                   <div class="image">
                                       <a href="{{ .Permalink }}">
                                           {{ if .Params.banner }}
@@ -37,10 +37,9 @@
                                       </a>
                                   </div>
                                 </div>
-                                <div class="col-md-8">
-                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                <div class="col-md-7">
                                     <div class="clearfix">
-                                        <p class="author-category">
+                                        <!--<p class="author-category">
                                           {{ if isset .Params "author" }}
                                           {{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a>
                                           {{ end }}
@@ -50,13 +49,16 @@
                                           {{ end }}
                                           {{ end }}
 
-                                        </p>
+                                        </p>-->
                                         <p class="date-comments">
                                             <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i> {{ .Date.Format .Site.Params.date_format }}</a>
                                         </p>
                                     </div>
-                                    <p class="intro">{{ .Summary }}</p>
-                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
+				    <p></br></br></br></br></br></p>
+                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+				    <p></br></br></br></br></br></p>
+                                    <!--<p class="intro">{{ .Summary }}</p>-->
+                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">LLEGIR</a>
                                     </p>
                                 </div>
                             </div>
@@ -103,6 +105,7 @@
             <!-- /.container -->
         </div>
         <!-- /#content -->
+	</section>
 
         {{ partial "footer.html" . }}
 

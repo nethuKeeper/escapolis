@@ -1,9 +1,9 @@
 +++
-title = "Missionleak"
-date = "2010-06-24T13:50:46+02:00"
+title = "Cronologic"
+date = "2015-06-24T13:50:46+02:00"
 tags = ["theme"]
 categories = ["starting"]
-banner = "img/escapes/missionleak.jpg"
+banner = "img/escapes/cronologic.jpg"
 +++
 
 ## Introduction
