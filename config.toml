@@ -1,7 +1,8 @@
 baseurl = "https://example.org"
 title = "Escapolis"
 theme = "universal-theme"
-languageCode = "en-us"
+languageCode = "ca"
+
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 # Enable Google Analytics by entering your tracking code

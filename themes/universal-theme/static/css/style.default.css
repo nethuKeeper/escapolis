@@ -1702,7 +1702,7 @@ fieldset[disabled] .btn-template-primary.active {
 .box .box-footer {
   background: #f7f7f7;
   margin: 30px 0 -20px;
-  padding: 20px;
+  padding: 0px;
   border-top: solid 1px #eeeeee;
 }
 .box .box-footer:before,
@@ -2515,7 +2515,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #footer {
   background: #555555;
-  padding: 50px 0;
+  padding: 10px 0;
   color: #999999;
 }
 #footer h1,
