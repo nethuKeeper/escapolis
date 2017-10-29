@@ -1592,7 +1592,7 @@ fieldset[disabled] .btn-template-primary.active {
   background: #414ea0;
 }
 .box-image-text .image {
-  min-height: 200px;
+  min-height: 350px;
   max-height: 350px;
 }
 .box-image-text .top .name {
@@ -1624,7 +1624,7 @@ fieldset[disabled] .btn-template-primary.active {
   position: absolute;
   width: 100%;
   height: 50%;
-  top: 0;
+  top: -8%;
   -webkit-transform: translate(0, -150%);
   -ms-transform: translate(0, -150%);
   -o-transform: translate(0, -150%);
@@ -1863,7 +1863,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .see-more p {
   font-size: 28px;
-  font-weight: 100;
+  font-weight: normal;
   margin-bottom: 20px;
 }
 .showcase .item {
@@ -2260,6 +2260,7 @@ fieldset[disabled] .btn-template-primary.active {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
+
 @media (max-width: 767px) {
   .product .image img.img-responsive {
     min-width: 100%;
@@ -3163,7 +3164,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 /* scaffolding */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  /*font-family: "Roboto", Helvetica, Arial, sans-serif;*/
+  font-family: 'Share', cursive;
   font-size: 14px;
   line-height: 1.42857143;
   color: #555555;

@@ -1,8 +1,12 @@
 /* your styles go here */
 
-.box-image-text .image {
-  min-height: 200px;
-  max-height: 350px;
+.img-responsive-tx {
+height: 350px !important;
+min-width: 100% !important;
+max-width: none;
+left: 50% !important;
+position: relative !important;
+transform: translateX(-50%) !important;
 }
 
 .box-simple {
