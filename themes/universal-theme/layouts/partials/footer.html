@@ -23,14 +23,14 @@
                     <div class="image same-height-always">
                         <a href="{{ .Permalink }}">
                           {{ if isset .Params "banner" }}
-                            <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
+                            <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive img-responsive-tx-mini" alt="">
                           {{ else }}
-                            <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
+                            <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive img-responsive-tx-mini" alt="">
                           {{ end }}
                         </a>
                     </div>
                     <div class="name same-height-always">
-                        <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+                        <p class="text-center"><h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5></p>
                     </div>
                 </div>
                 {{ end }}

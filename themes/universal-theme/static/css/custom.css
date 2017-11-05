@@ -9,6 +9,15 @@ position: relative !important;
 transform: translateX(-50%) !important;
 }
 
+.img-responsive-tx-mini {
+height: 52.5px !important;
+min-width: 100% !important;
+max-width: none;
+left: 50% !important;
+position: relative !important;
+transform: translateX(-50%) !important;
+}
+
 .box-simple {
   min-height: 230px;
 }

@@ -82,7 +82,7 @@ p.lead {
 }
 section,
 div.section {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 .no-mb {
   margin-bottom: 0 !important;
@@ -1862,7 +1862,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 50px;
 }
 .see-more p {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 20px;
   letter-spacing: 1.5px;
@@ -2581,6 +2581,9 @@ fieldset[disabled] .btn-template-primary.active {
   float: left;
   width: 15%;
   margin-right: 10px;
+  min-height: 52.5px;
+  max-height: 52.5px;
+  overflow: hidden;
 }
 #footer .blog-entries .item .name {
   width: 75%;
