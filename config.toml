@@ -4,7 +4,7 @@ theme = "universal-theme"
 languageCode = "ca"
 
 # Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "en"
+defaultContentLanguage = "ca"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
