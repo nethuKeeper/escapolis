@@ -4,7 +4,7 @@ theme = "universal-theme"
 languageCode = "ca"
 
 # Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "en"
+defaultContentLanguage = "ca"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
@@ -44,7 +44,7 @@ paginate = 10
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
 
-    about_us = "<p>Escapa escapame esca!!</p>"
+    about_us = "<p>Fa uns anys vam descobrir  els escape rooms, la millor innovació en oci en molt de temps. Actualment ens declarem adictes a aquesta combinació perfecta de treball en equip, estrés i prova d'ingeni per a tots els públics!!</p>"
 # copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
 
     # Format dates with Go's time formatting
@@ -62,9 +62,14 @@ paginate = 10
     name = "Twitter"
     url = "https://twitter.com/escapolis"
     pre = "<i class='fa fa-2x fa-twitter'></i>"
-
 [[menu.topbar]]
     weight = 2
+    name = "Facebook"
+    url = "https://facebook.com/Escapolis-498041020570471"
+    pre = "<i class='fa fa-2x fa-facebook'></i>"
+
+[[menu.topbar]]
+    weight = 3
     name = "Email"
     url = "mailto:info@escapolis.cat"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
@@ -72,7 +77,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contacta'ns a twitter or info@escapolis.cat</p>
+    text = """<p class="hidden-sm hidden-xs">Contacta'ns a twitter, facebook o a info@escapolis.cat</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
@@ -80,8 +85,8 @@ paginate = 10
 [params.see_more]
     enable = true
     icon = "fa fa-file-code-o"
-    title = "ESCAPOLIS"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    #title = "Ressenyes per escapistes"
+    subtitle = "Ressenyes, valoracions i novetats per escapistes!!"
     link_url = "#"
     link_text = "Check other homepages"
 
