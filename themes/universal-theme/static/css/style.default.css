@@ -1863,10 +1863,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .see-more p {
   font-size: 40px;
-  font-weight: bold;
   margin-bottom: 20px;
-  letter-spacing: 1.5px;
-  color: cornsilk !important;
 }
 .showcase .item {
   text-align: center;

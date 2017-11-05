@@ -86,7 +86,7 @@ paginate = 10
     enable = true
     icon = "fa fa-file-code-o"
     #title = "Ressenyes per escapistes"
-    subtitle = "Ressenyes, valoracions i novetats per escapistes!!"
+    subtitle = "Ressenyes, valoracions i novetats de la ciutat per a escapistes!!"
     link_url = "#"
     link_text = "Check other homepages"
 
