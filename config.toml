@@ -37,8 +37,8 @@ paginate = 10
     weight = 4
 
 [[menu.main]]
-    name = "Patata"
-    url  = "/patata/"
+    name = "Nova pàgina"
+    url  = "/nova_pagina/" #modificar nom de '/content/blog/nova_pagina.md' al nom que es posi aquí, a la url
     weight = 5
 
 [params]
